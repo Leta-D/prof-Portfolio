@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="navbar">
+      <div class="nav-icons">
+        <a href="index.html" class="icon-link" data-tooltip="Home">🏠</a>
+        <a href="#" class="icon-link" data-tooltip="Profile">👤</a>
+        <a href="project.html" class="icon-link" data-tooltip="Project">💼</a>
+      </div>
+      <div class="nav-actions">
+        <button id="lightDarkMode" class="icon-link" data-tooltip="Light Mode">☀️</button>
+        <a href="#" class="hire-btn">+ Hire Me</a>
+      </div>
+    </div>
+
+    <section class="intro-section">
+      <p class="section-label">• SWE | Mobile App Developer</p>
+      <div class="intro-header">
+        <div class="intro-text">
+          <h1>I’m Leta Dejene</h1>
+          <p>Product designer from Jakarta, ID.<br>
+             Currently designing at Rectangle.</p>
+          <div class="action-buttons">
+            <a href="#" class="btn">Hire Me</a>
+            <button class="btn" onclick="copyEmail()">Copy Email</button>
+          </div>
+        </div>
+        <img src="assets/profile.jpg" alt="Profile" class="profile-img" />
+      </div>
+      <span class="availability">🟢 Available for Work</span>
+    </section>
+    <p class="section-label">• Projects</p>
+    <a class="view-all" href="projects.html">View All →</a>
+      
+    <section class="projects-preview">
+      
+
+      <div class="work-card">
+        <div class="work-icon"><span class="logo">M</span></div>
+        <div class="work-info">
+          <h2>Morva Labs</h2>
+          <p>Visual design, Branding</p>
+        </div>
+        <div class="arrow">➔</div>
+      </div>
+
+      <div class="work-card">
+        <div class="work-icon rectangle"><span class="logo">▢</span></div>
+        <div class="work-info">
+          <h2>Rectangle</h2>
+          <p>Product design, Icon design</p>
+        </div>
+        <div class="arrow">➔</div>
+      </div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
