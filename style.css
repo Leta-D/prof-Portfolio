@@ -148,9 +148,17 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  #helloText {
+    float: right;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em;
+    color: #a6f3d46b;
+    animation: goldenGlow 7s infinite ease-in-out;
+  }
   .intro-text h1 {
     font-size: 2em;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
   .intro-text p {
     color: #bbb;
@@ -168,7 +176,8 @@
     color: #a6f3d4;
     padding: 4px 10px;
     border-radius: 12px;
-    margin-top: 12px;
+    margin-top: 20px;
+    margin-bottom: 12px;
     font-size: 0.9em;
   }
   
@@ -230,9 +239,9 @@
     font-weight: bold;
     font-size: 1.4em;
   }
-  .rectangle {
+  /* .rectangle {
     background: radial-gradient(circle at top left, #5300d6, #230066);
-  }
+  } */
   .work-info h2 {
     font-size: 1.2em;
   }
@@ -243,6 +252,19 @@
   .arrow {
     margin-left: auto;
     color: #888;
+  }
+
+  /* Animations */
+
+  @keyframes goldenGlow {
+    0%, 100% {
+      opacity: 0;
+      text-shadow: 0 0 5px #ffd700, 0 0 10px #ffbf00, 0 0 20px #ffc107;
+    }
+    50% {
+      opacity: 1;
+      text-shadow: 0 0 10px #ffd700, 0 0 20px #ffbf00, 0 0 30px #ffc107, 0 0 40px #ffa000;
+    }
   }
   
   /* RESPONSIVE */
