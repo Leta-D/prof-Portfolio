@@ -48,7 +48,10 @@ a {
   border-radius: 12px;
   z-index: 1000;
 }
-
+.nav-icons{
+  display: flex;
+  flex-direction: row;
+}
 .nav-icons a {
   font-size: 1.8rem;
   color: #fff;
@@ -308,6 +311,14 @@ a {
   color: #888;
 }
 
+/* For Project page */
+.projects h1 {
+  color: #044f37;
+  margin: 20px;
+}
+.projects p{
+  margin-bottom: 20px;
+}
 
 /* ANIMATIONS */
 @keyframes goldenGlow {

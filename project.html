@@ -7,12 +7,17 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <script src="script.js"></script>
+
   <div class="page-wrapper">
     <div class="navbar">
       <div class="nav-icons">
         <a href="index.html" class="icon-link" data-tooltip="Home">🏠</a>
         <a href="#" class="icon-link" data-tooltip="About">👤</a>
-        <a href="project.html" class="icon-link" data-tooltip="Project">💼</a>
+        <div>
+          <a href="project.html" class="icon-link" data-tooltip="Project">💼</a>
+          <hr style="height: 5px; margin-top: 5px; border-color: rgb(187, 130, 25); border-radius: 5px;">
+        </div>
       </div>
       <div class="nav-actions">
         <button id="lightDarkMode" class="icon-link" data-tooltip="Light Mode">☀️</button>
@@ -27,24 +32,47 @@
         Discover my portfolio, where purposeful interfaces meet captivating design.
         My work strives to enhance experiences and inspire.
       </p>
+      <section class="projects-preview">
 
-      <div class="work-card">
-        <div class="work-icon"><span class="logo">M</span></div>
+      <div class="work-card" onclick="projectPresenter('FitLife')">
+        <div class="work-icon"><span class="logo">&#9829;</span></div>
         <div class="work-info">
-          <h2>Morva Labs</h2>
-          <p>Visual design, Branding</p>
+          <h2>FitLife</h2>
+          <p>Gym app to get varity of exercises with many filtering</p>
         </div>
         <div class="arrow">➔</div>
       </div>
 
-      <div class="work-card">
-        <div class="work-icon rectangle"><span class="logo">▢</span></div>
+      <div class="work-card" onclick="projectPresenter('Artify')">
+        <div class="work-icon rectangle"><span class="logo">&#9830;</span></div>
         <div class="work-info">
-          <h2>Rectangle</h2>
-          <p>Product design, Icon design</p>
+          <h2>Artify</h2>
+          <p>WallPaper app,with tones of images and download option</p>
         </div>
         <div class="arrow">➔</div>
       </div>
+
+      <div class="work-card" onclick="projectPresenter('GreenPill')">
+        <div class="work-icon"><span class="logo">&#9827;</span></div>
+        <div class="work-info">
+          <h2>GreenPill</h2>
+          <p>E-learn app biult as intern project for zemenay campany</p>
+        </div>
+        <div class="arrow">➔</div>
+      </div>
+
+      <div class="work-card" onclick="projectPresenter('To-Do')">
+        <!-- <div class="work-icon rectangle"><span class="logo">&#9824;</span></div> -->
+        <div class="work-icon"><span class="logo">&#9824;</span></div>
+        <div class="work-info">
+          <h2>To-Do </h2>
+          <p>Task tracker for daily basces</p>
+        </div>
+        <div class="arrow">➔</div>
+      </div>
+
+    </section>
+      
     </section>
   </div>
   <script src="script.js"></script>
