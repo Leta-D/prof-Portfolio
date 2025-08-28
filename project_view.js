@@ -6,7 +6,7 @@ const projects = {
         desc: "FitLife is a cross-platform fitness application built with Flutter, designed to make workouts more accessible and personalized. It provides users with over 2000 exercises (with steps and GIFs), offline workouts, and intelligent recommendations based on personal data (age, gender, height, weight). Users can explore exercises by category, muscle group, or equipment, and save favorites for quick access. FitLife also features timers, workout plans, and custom notifications to keep users on track.",
         problem: "Many users struggle to find reliable workout guidance without paying for subscriptions or internet access.<br>Existing apps are often cluttered, hard to navigate, or lack offline functionality.\nBeginners don’t always know which exercises fit their body type, goals, or available equipment.\nStaying consistent with workouts requires reminders and simple tracking features.",
         solution: "Offering a clean, user-friendly interface with search & filter options.\nIncluding offline workouts that can be used without internet.\nProviding personalized exercise recommendations via BMI and user data.\nAllowing users to favorite exercises, create workout plans, and get notified about upcoming sessions.",
-        keyFeatures: ""
+        keyFeatures: "2000+ Exercises with step-by-step guides and GIFs.\nSmart Search & Filters (by body part, muscle, or equipment).\nOffline Workouts pre-loaded for use without internet.\nPersonalized Recommendations using BMI & user profile data.\nFavorites & Custom Workout Plans with timers.\nWorkout Reminders via local notifications."
     },
     "Artify" : {
         projectType:"Personal Project",
