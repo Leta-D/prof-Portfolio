@@ -59,6 +59,15 @@ a {
   position: relative;
 }
 
+#top-nav-icons{
+  width: 35px;
+  height: 35px;
+  background: #044f37;
+  fill: #000;
+  max-block-size: contain;
+  border-radius: 10px;
+}
+
 /* Tooltip Styling */
 .nav-icons a::after {
   content: attr(data-tooltip);
@@ -98,38 +107,37 @@ a {
 }
 
 /* BUTTON STYLES */
-.btn,
-.btn-primary,
-.btn-secondary {
-  padding: 8px 12px;
-  border-radius: 8px;
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 0.95em;
-  transition: background 0.3s;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.hire-btn{
+  padding: 5px 10px;
+  background-color: #293b37;
   border: none;
+  border-radius: 8px;
+  color: #ade7d6;
+  font-size: 15px;  
 }
 
-.btn-primary {
-  background-color: #2f2f2f;
-  color: #fff;
-  border: 1px solid #444;
+.email-btn{
+  padding: 5px 10px;
+  background-color: transparent;
+  border-color: #0d2c22;
+  border-style: solid;
+    border-radius: 8px;
+
+  color: #a3dbca;
+  font-size: 15px;
 }
 
-.btn-primary:hover {
-  background-color: #3a3a3a;
-}
-
-.btn-secondary {
-  background-color: #2c2c2c;
-  color: #fff;
-}
-
-.btn-secondary:hover {
-  background-color: #444;
+.hire-btn:hover, .email-btn:hover {
+  cursor: pointer;
+  background-color: #145e49;
+  color: #000;
 }
 
 /* INTRO SECTION */
@@ -210,7 +218,7 @@ a {
 }
 
 .work-card:hover {
-  background-color: #2a2a2a;
+  background-color: #132520;
 }
 
 .work-icon {
@@ -257,18 +265,6 @@ a {
 .footer p {
   color: #656d6b;
   margin-bottom: 25px;
-}
-
-.footer .buttons {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-}
-
-.footer .btn {
-  padding: 10px 20px;
-  font-weight: bold;
-  
 }
 
 .social-section {

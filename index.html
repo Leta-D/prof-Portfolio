@@ -13,15 +13,26 @@
     <div class="navbar">
       <div class="nav-icons">
         <div>
-          <a href="index.html" class="icon-link" data-tooltip="Home">🏠</a>
-          <hr style="height: 5px; margin-top: 5px; border-color: #00ff7880; border-radius: 5px;">
+          <a href="index.html" class="icon-link" data-tooltip="Home">
+            <img id="top-nav-icons" src="/assets/icons/home.png" alt="Home">
+          </a>
+          <hr style="height: 5px; margin: 1px 3px; border-color: #7edfc0; border-radius: 5px;">
         </div>
-        <a href="#" class="icon-link" data-tooltip="About">👤</a>
-        <a href="project.html" class="icon-link" data-tooltip="Project">💼</a>
+        <a href="#" class="icon-link" data-tooltip="About">
+          <img id="top-nav-icons" src="/assets/icons/about.png" alt="About">
+        </a>
+        <a href="project.html" class="icon-link" data-tooltip="Project">
+          <img id="top-nav-icons" src="/assets/icons/project.png" alt="Project">
+        </a>
+        <a href="#" class="icon-link" data-tooltip="CV">
+          <img id="top-nav-icons" src="/assets/icons/cv.png" alt="CV">
+        </a>
       </div>
       <div class="nav-actions">
-        <button id="lightDarkMode" class="icon-link" data-tooltip="Light Mode">☀️</button>
-        <a href="#" class="hire-btn">+ Hire Me</a>
+        <button id="lightDarkMode" class="icon-link" data-tooltip="Light" onclick="themeModeHandler()">
+          <img id="social-icons-img" style="margin-top: 0px; margin-right: 10px; width: 30px; height: 30px; background-color: #1d493e;" src="/assets/icons/sun.png" alt="Light">
+        </button>
+        <a href="#" class="hire-btn">⊕ Hire Me</a>
       </div>
     </div>
 
@@ -35,8 +46,10 @@
           <p>Product designer from Jakarta, ID.<br>
              Currently designing at Rectangle.</p>
           <div class="action-buttons">
-            <a href="#" class="btn">Hire Me</a>
-            <button class="btn" onclick="copyEmail()">Copy Email</button>
+            <div class="buttons">
+              <button class="hire-btn"><i class="fa-solid fa-plus"></i>⊕ Hire Me</button>
+              <button class="email-btn"><i class="fa-regular fa-copy"></i> Copy Email</button>
+            </div>
           </div>
         </div>
         <img src="assets/profile.jpg" alt="Profile" class="profile-img" />
@@ -48,7 +61,7 @@
       
     <section class="projects-preview">
 
-      <div class="work-card">
+      <div class="work-card" onclick="projectPresenter('FitLife')">
         <div class="work-icon"><span class="logo">&#9829;</span></div>
         <div class="work-info">
           <h2>FitLife</h2>
@@ -57,7 +70,7 @@
         <div class="arrow">➔</div>
       </div>
 
-      <div class="work-card">
+      <div class="work-card" onclick="projectPresenter('Artify')">
         <div class="work-icon rectangle"><span class="logo">&#9830;</span></div>
         <div class="work-info">
           <h2>Artify</h2>
@@ -66,7 +79,7 @@
         <div class="arrow">➔</div>
       </div>
 
-      <div class="work-card">
+      <div class="work-card" onclick="projectPresenter('GreenPill')">
         <div class="work-icon"><span class="logo">&#9827;</span></div>
         <div class="work-info">
           <h2>GreenPill</h2>
@@ -75,8 +88,7 @@
         <div class="arrow">➔</div>
       </div>
 
-      <div class="work-card">
-        <!-- <div class="work-icon rectangle"><span class="logo">&#9824;</span></div> -->
+      <div class="work-card" onclick="projectPresenter('To-Do')">
         <div class="work-icon"><span class="logo">&#9824;</span></div>
         <div class="work-info">
           <h2>To-Do </h2>
