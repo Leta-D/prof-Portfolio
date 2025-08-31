@@ -184,14 +184,26 @@ a {
   border: 3px solid #444;
 }
 
-.availability {
-  display: inline-block;
-  background: #044f37;
-  color: #a6f3d4;
+/* for availabelity sign */
+.status {
+  font-size: 12px;
+  background: #062f1c;
+  color: #0f0;
   padding: 4px 10px;
-  border-radius: 12px;
-  font-size: 0.9em;
-  margin: 20px 0 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  display: flex;
+  width: 40%;
+  align-items: center;
+  gap: 6px;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  background: #0f0;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 /* PROJECT PREVIEW */
@@ -485,6 +497,60 @@ a {
   transform: scale(1.08);
   box-shadow: 0 15px 35px rgba(0,255,120,0.5); /* Soft glow */
 }
+
+/* For hire me page */
+/* Container */
+.form-container {
+  background: #1c1c1c;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 400px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+/* Form Fields */
+form {
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+.input-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #2a2a2a;
+  color: #fff;
+  font-size: 14px;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #888;
+}
+
+/* Button */
+form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #333;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: #293d34; 
+} 
 
 /* ANIMATIONS */
 @keyframes goldenGlow {
