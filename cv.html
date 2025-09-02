@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Home | Portfolio</title>
+        <title>Portfolio-LD | CV</title>
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
@@ -26,8 +26,7 @@
                             <img id="top-nav-icons" src="/assets/icons/cv.png" alt="CV">
                         </a>
                         <hr style="height: 5px; margin: 1px 3px; border-color: #7edfc0; border-radius: 5px;">
-                    </div>
-                        
+                    </div>  
                 </div>
                 <div class="nav-actions">
                     <button id="lightDarkMode" class="icon-link" data-tooltip="Light" onclick="themeModeHandler()">
@@ -35,6 +34,103 @@
                     </button>
                     <a href="hireme.html" class="hire-btn">+ Hire Me</a>
                 </div>
+            </div>
+
+            <section class="projects">
+              <p class="section-label">• CV</p>
+              <h1>My Resume</h1>
+            </section>
+
+            <!-- Header / Hero Section -->
+            <header class="cv-hero">
+              <div class="cv-hero-content">
+                  <div class="cv-image-wrapper">
+                      <img src="assets/profile.jpg" alt="Resume Preview" class="cv-resume-image">
+                </div>
+                <a href="resume.pdf" download class="cv-btn">Download Resume</a>
+              </div>
+            </header>
+
+            <!-- Skills Section -->
+            <section id="cv-skills" class="cv-section">
+              <h2 class="cv-section-title">Skills</h2>
+              <div class="cv-skills-grid">
+                <div class="cv-skill-card">Flutter</div>
+                <div class="cv-skill-card">Dart</div>
+                <div class="cv-skill-card">BLoC</div>
+                <div class="cv-skill-card">FastAPI</div>
+                <div class="cv-skill-card">Firebase</div>
+                <div class="cv-skill-card">Git & GitHub</div>
+              </div>
+            </section>
+
+            <!-- Experience Timeline -->
+            <section id="cv-experience" class="cv-section">
+              <h2 class="cv-section-title">Experience</h2>
+              <div class="cv-timeline">
+                <div class="cv-timeline-item">
+                  <div class="cv-timeline-dot"></div>
+                  <div class="cv-timeline-content">
+                    <h3>Mobile App Developer</h3>
+                    <span style="color: #327565;">Internship at Efuye Gela</span> <br>
+                    <span style="color: #327565;">May - Aug 2025</span><br>
+                    <p>Built mobile app for project and 
+                      debuged 6 already biult mobile apps 
+                      to fix deprecated package issue and 
+                      update the apps to current flutter standards.
+                    </p>
+                  </div>
+                </div>
+                <div class="cv-timeline-item">
+                  <div class="cv-timeline-dot"></div>
+                  <div class="cv-timeline-content">
+                    <h3>Flutter Developer</h3>
+                    <span style="color: #327565;">Internship at Kuraz</span> <br>
+                    <span style="color: #327565;">Jul - Present 2025</span><br>
+                    <p>Delivered multiple apps and websites, specializing in mobile-first solutions and performance optimization.</p>
+                  </div>
+                </div>
+                <div class="cv-timeline-item">
+                  <div class="cv-timeline-dot"></div>
+                  <div class="cv-timeline-content">
+                    <h3>Personal Project</h3>
+                    <span style="color: #327565;">As learning milestone</span> <br>
+                    <p>
+                      I have biult different apps from scratch including figma design as personal projects. <br><br>
+                      <a href="project.html" style="color: aqua; font-style: oblique;">Projects</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <div class="footer">
+                <h2>Let’s work together.</h2>
+                <p>Passionate about building functional apps with visually appealing interfaces.</p>
+                <div class="buttons">
+                    <a href="hireme.html" class="hire-btn">⊕ Hire Me</a>
+                    <button class="email-btn"><i class="fa-regular fa-copy"></i> Copy Email</button>
+                </div>
+            </div>
+
+            <div class="social-section">
+                <span>• Follow Me</span>
+                <div class="social-icons">
+                    <a href="https://github.com/Leta-D" target="_blank">
+                    <img id="social-icons-img" src="/assets/icons/github.png" alt="github">
+                    </a>
+                    <a href="https://www.linkedin.com/in/leta-dejene" target="_blank">
+                    <img id="social-icons-img" src="/assets/icons/linkedin.png" alt="github">
+                    </a>
+                    <a href="https://github.com/Leta-D" target="_blank">
+                    <img id="social-icons-img" src="/assets/icons/instagram.png" alt="github">
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>Leta Dejene – Portfolio </p>
+                <p style="margin-top: 20px;">code is language of the future and am fluent</p>
             </div>
         </div>
     </body>
