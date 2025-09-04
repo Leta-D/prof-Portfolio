@@ -7,7 +7,7 @@ const projects = {
         problem: "Many users struggle to find reliable workout guidance without paying for subscriptions or internet access.<br>Existing apps are often cluttered, hard to navigate, or lack offline functionality.\nBeginners don’t always know which exercises fit their body type, goals, or available equipment.\nStaying consistent with workouts requires reminders and simple tracking features.",
         solution: "Offering a clean, user-friendly interface with search & filter options.\nIncluding offline workouts that can be used without internet.\nProviding personalized exercise recommendations via BMI and user data.\nAllowing users to favorite exercises, create workout plans, and get notified about upcoming sessions.",
         keyFeatures: "2000+ Exercises with step-by-step guides and GIFs.\nSmart Search & Filters (by body part, muscle, or equipment).\nOffline Workouts pre-loaded for use without internet.\nPersonalized Recommendations using BMI & user profile data.\nFavorites & Custom Workout Plans with timers.\nWorkout Reminders via local notifications.",
-        logo: "/assets/logo/fitlife_logo.png ", 
+        logo: "assets/logo/fitlife_logo.png ", 
         imgUrls: [
             "assets/image/fitlife1.jpg", 
             "assets/image/fitlife2.jpg", 
@@ -24,7 +24,7 @@ const projects = {
         problem: "Finding fresh, high-quality wallpapers can be time-consuming across multiple platforms.\nMany wallpaper apps restrict downloads or limit resolution.\nUsers often lack a smooth experience switching between downloaded and device images for wallpaper customization.",
         solution: "Providing search & category-based browsing for quick discovery.\nOffering download options (low & high quality).\nAllowing easy wallpaper management (downloaded vs all photos).\nGiving direct options to set wallpapers for home, lock, or both screens in one tap. ",
         keyFeatures: "Search wallpapers by keyword or explore categories.\nRandom wallpaper generator for fresh daily inspiration.\nHigh-quality downloads powered by Unsplash API.\nView & manage downloaded wallpapers separately.\nDirect wallpaper setting (home, lock, or both).",
-        logo: "/assets/logo/artify_logo.png", 
+        logo: "assets/logo/artify_logo.png", 
         imgUrls: [
             "assets/image/artify1.jpg", 
             "assets/image/artify2.jpg", 
@@ -41,7 +41,7 @@ const projects = {
         problem: "Many learning apps are complex and bloated, making it difficult for learners to track progress clearly.\nStudents often lack direct feedback channels to course authors.\nCourse creators struggle with easy course management and learner analytics.",
         solution: "Offering simple course enrollment and progress tracking (per-course & overall).\nEmbedding course videos directly via YouTube for accessibility.\nProviding direct course-level feedback between learners and authors.\nGiving admins tools to manage courses, track platform stats, and create challenges to motivate learners.",
         keyFeatures: "User side:\nEnroll in courses & save courses for later.\nWatch course videos (YouTube integration).\nProgress tracking (single course + overall progress %).\nProfile page with user details.\nFeedback submission to course authors.\n\nAdmin side:\nUpload, edit, delete courses.\nView users & admins statistics.\nCreate challenges for learners.\nPlatform-wide analytics.",
-        logo: "/assets/logo/greenpill_logo.png", 
+        logo: "assets/logo/greenpill_logo.png", 
         imgUrls: [
             "assets/image/greenpill1.jpg", 
             "assets/image/greenpill2.jpg", 
@@ -58,13 +58,13 @@ const projects = {
         problem: "Problem",
         solution: "Solution",
         keyFeatures: "Key Features",
-        logo: "./assets/errorGif/errorImage.jpeg", 
+        logo: "assets/errorGif/errorImage.jpeg", 
         imgUrls: [
-            "/assets/errorGif/black404.gif", 
-            "/assets/errorGif/black404.gif", 
-            "/assets/errorGif/errorImage.jpeg", 
-            "/assets/errorGif/errorImage.jpeg", 
-            "/assets/errorGif/errorImage.jpeg"
+            "assets/errorGif/black404.gif", 
+            "assets/errorGif/black404.gif", 
+            "assets/errorGif/errorImage.jpeg", 
+            "assets/errorGif/errorImage.jpeg", 
+            "assets/errorGif/errorImage.jpeg"
         ]
     },
     "KindBridge": {
@@ -75,7 +75,7 @@ const projects = {
         problem: "Donors often struggle to find reliable NGOs to donate items to.\nNGOs lack a centralized platform to easily discover and manage available donations.\nExisting donation systems can be complicated, involving unnecessary middlemen or delivery agents.",
         solution: "Directly connecting donors and NGOs in a single platform.\nAllowing donors to post, track, and manage donations.\nEnabling NGOs to accept donations easily and transparently.\nSimplifying the process by removing delivery agents.",
         keyFeatures: "Role selection: donor or NGO at sign-up.\nDonors can post items for donation.\nNGOs can view available donations and accept them.\nDonation status tracking (offered → accepted → completed).\nSimple and clean UI for quick interactions.",
-        logo: "/assets/logo/kindBridge_logo.jpg", 
+        logo: "assets/logo/kindBridge_logo.jpg", 
         imgUrls: [
             "assets/image/kindbridge1.jpg", 
             "assets/image/kindbridge2.jpg", 
